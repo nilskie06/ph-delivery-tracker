@@ -1,0 +1,70 @@
+{
+  "name": "@ph-itdev/ph-delivery-tracker",
+  "version": "0.1.0",
+  "description": "Philippine delivery tracking utilities — rider management, route optimization, delivery status, proof of delivery, and more",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./tracking": {
+      "types": "./dist/tracking.d.ts",
+      "import": "./dist/tracking.js",
+      "require": "./dist/tracking.cjs"
+    },
+    "./rider": {
+      "types": "./dist/rider.d.ts",
+      "import": "./dist/rider.js",
+      "require": "./dist/rider.cjs"
+    },
+    "./route": {
+      "types": "./dist/route.d.ts",
+      "import": "./dist/route.js",
+      "require": "./dist/route.cjs"
+    },
+    "./status": {
+      "types": "./dist/status.d.ts",
+      "import": "./dist/status.js",
+      "require": "./dist/status.cjs"
+    },
+    "./proof": {
+      "types": "./dist/proof.d.ts",
+      "import": "./dist/proof.js",
+      "require": "./dist/proof.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "lint": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "delivery",
+    "tracking",
+    "rider",
+    "logistics",
+    "philippines",
+    "route",
+    "courier",
+    "typescript"
+  ],
+  "author": "Nilo Besingga",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.9.3",
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.9"
+  }
+}
