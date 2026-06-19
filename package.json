@@ -1,5 +1,5 @@
 {
-  "name": "@ph-itdev/ph-delivery-tracker",
+  "name": "ph-delivery-tracker",
   "version": "0.1.0",
   "description": "Philippine delivery tracking utilities — rider management, route optimization, delivery status, proof of delivery, and more",
   "type": "module",
