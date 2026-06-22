@@ -1,6 +1,6 @@
 {
   "name": "ph-delivery-tracker",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Philippine delivery tracking utilities — rider management, route optimization, delivery status, proof of delivery, and more",
   "type": "module",
   "main": "./dist/index.cjs",
